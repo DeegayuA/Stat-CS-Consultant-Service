@@ -493,7 +493,7 @@ body {
     border-radius: var(--spacing-l);
     height: auto;
     border: 1px solid var(--header-color);
-    width: 90vw;
+    max-width: var(--width-container);
     list-style: none;
     position: relative;
     background-color: var(--bg-color);
@@ -516,19 +516,19 @@ body {
 }
 
 @media(min-width: 540px) {
-    .card3 {
-        width: 45vw;
-    }
+    /* .card3 {
+        width: 45vw; 
+    }*/
     .card-grid2 {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media(min-width: 1024px) {
-    .card3 {
+    /* .card3 {
         min-width: 20vw;
-        max-width: 26vw;
-    }
+        max-width: 23vw;
+    } */
     .card-grid2 {
         grid-template-columns: repeat(3, 1fr);
     }
